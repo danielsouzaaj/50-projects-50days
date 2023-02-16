@@ -15,6 +15,7 @@ body {
 main {
     display: flex;
     width: 90vw;
+    gap: 10px;
 }
 
 .image-1 {
@@ -42,4 +43,8 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     height: 75vh;
+    border-radius: 50px;
+    flex: 0.5;
+    position: relative;
+    cursor: pointer;
 }
