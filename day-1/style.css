@@ -55,3 +55,7 @@ main {
     left: 30px;
     bottom: 30px;
 }
+
+.open-image {
+    flex: 5;
+}
