@@ -1,4 +1,4 @@
-const images = document.querySelectorAll('conteiner-image')
+const images = document.querySelectorAll('.conteiner-image')
 
 images.forEach(image => {
     image.addEventListener('click', (e) => {
@@ -8,5 +8,7 @@ images.forEach(image => {
 })
 
 function removeClass() {
-    images.forEach(image => image.classList.remove('open-image'))
+    images.forEach(image => {
+        image.classList.remove('open-image')
+    })
 }
