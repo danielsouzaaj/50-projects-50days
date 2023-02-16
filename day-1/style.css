@@ -56,8 +56,13 @@ main {
     bottom: 30px;
     font-size: 34px;
     color: #f8f8f8;
+    opacity: 0;
 }
 
 .open-image {
     flex: 5;
+}
+
+.open-image .image-text {
+    opacity: 1;
 }
