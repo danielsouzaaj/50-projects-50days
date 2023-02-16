@@ -67,3 +67,10 @@ main {
     opacity: 1;
     transition: opacity 0.5 ease;
 }
+
+@media (max-width: 480px) {
+    .image-4,
+    .image-5 {
+        display: none;
+    }
+}
