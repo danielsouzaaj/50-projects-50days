@@ -12,6 +12,10 @@ body {
     overflow: hidden;
 }
 
+main {
+    display: flex;
+}
+
 .image-1 {
     background-image: url(./imgs/anthony-delanoix-QAwciFlS1g4-unsplash.jpg);
 }
