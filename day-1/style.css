@@ -4,6 +4,14 @@
     padding: 0;
 }
 
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
 .image-1 {
     background-image: url(./imgs/anthony-delanoix-QAwciFlS1g4-unsplash.jpg);
 }
