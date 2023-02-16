@@ -54,6 +54,8 @@ main {
     position: absolute;
     left: 30px;
     bottom: 30px;
+    font-size: 34px;
+    color: #f8f8f8;
 }
 
 .open-image {
