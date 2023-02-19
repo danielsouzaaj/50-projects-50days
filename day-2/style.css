@@ -79,8 +79,8 @@ body {
     font-size: 12px;
 }
 
-.btn.active {
-    transform: scale(0.90);
+.btn:active {
+    transform: scale(0.98);
 }
 
 .btn:focus {
