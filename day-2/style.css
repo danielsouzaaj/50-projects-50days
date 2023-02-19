@@ -72,3 +72,7 @@ body {
     cursor: pointer;
     font-size: 12px;
 }
+
+.btn.active {
+    transform: scale(0.90);
+}
