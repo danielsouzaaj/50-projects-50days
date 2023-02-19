@@ -15,5 +15,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 100%;
     width: 350px;
 }
