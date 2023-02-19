@@ -10,3 +10,10 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.progress-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+}
