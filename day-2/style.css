@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 :root {
     --line-progress-fill: #ff0000;
     --line-progress-empty: #e1e1e1;
@@ -14,6 +16,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .conteiner {
@@ -78,6 +81,7 @@ body {
     border: 0;
     cursor: pointer;
     font-size: 12px;
+    font-family: inherit;
 }
 
 .btn:active {
