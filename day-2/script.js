@@ -12,7 +12,6 @@ btnNext.addEventListener('click', () => {
         currentActive = circles.length
     }
 
-    console.log(currentActive)
     update()
 })
 
@@ -23,7 +22,6 @@ btnPrev.addEventListener('click', () => {
         currentActive = 1
     }
 
-    console.log(currentActive)
     update()
 })
 
