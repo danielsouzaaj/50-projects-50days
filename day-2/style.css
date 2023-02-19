@@ -71,7 +71,7 @@ body {
 .btn {
     background-color: var(--line-progress-fill);
     color: #f6f6f6;
-    padding: 6px 25px;
+    padding: 8px 30px;
     margin: 5px;
     border-radius: 5px;
     border: 0;
