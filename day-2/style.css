@@ -20,6 +20,18 @@ body {
     position: relative;
 }
 
+.progress-conteiner::after {
+    content: '';
+    background-color: #e1e1e1;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: -2;
+    transform: translateY(-50%);
+    height: 5px;
+    width: 100%;
+}
+
 .progress {
     background: #ff0000;
     position: absolute;
