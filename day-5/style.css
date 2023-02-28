@@ -18,7 +18,7 @@ body {
     position: absolute;
     inset: 0;
     z-index: -1;
-    filter: blur(70px);
+    filter: blur(30px);
 }
 
 .text-loading {
