@@ -16,7 +16,10 @@ body {
 .bg {
     background: url(./img/samuel-jeronimo-2Gz_qwbbnKM-unsplash.jpg) no-repeat center center/cover;
     position: absolute;
-    inset: 0;
+    top: -20px;
+    left: -20px;
+    width: calc(100vw + 40px);
+    height: calc(100vh + 40px);
     z-index: -1;
     filter: blur(30px);
 }
