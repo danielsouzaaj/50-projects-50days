@@ -8,21 +8,19 @@ buttons.forEach(button => {
     button.addEventListener('click', (event) => {
         if (button.classList.contains('decrease')){
             number.textContent = --count
-            numberColor()
         }
 
         if (button.classList.contains('reset')) {
             count = 0
             number.textContent = count
-            numberColor()
         }
 
         if (button.classList.contains('increase')) {
             number.textContent = ++count
-            numberColor()
         }
 
         localStorage.setItem('counter', count)
+        numberColor()
     })
 })
 
