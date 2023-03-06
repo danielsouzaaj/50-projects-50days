@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -9,6 +12,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 main {
@@ -16,6 +20,7 @@ main {
 }
 
 .number {
+    font-weight: 700;
     font-size: 12rem;
     margin-bottom: 20px;
 }
@@ -26,10 +31,25 @@ div {
 }
 
 .btn {
+    background-color: transparent;
     padding: 5px 15px;
     border-radius: 5px;
     text-transform: uppercase;
     cursor: pointer;
+    transform: scale(1);
     transition: transform 0.3s ease;
 }
 
+.btn:active {
+    transform: scale(0.95);
+}
+
+.decrease:hover {
+    background-color: #e14141;
+    color: #fafafa;
+}
+
+.increase:hover {
+    background-color: #2bb637;
+    color: #fafafa;
+}
