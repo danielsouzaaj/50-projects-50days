@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+button {
+    background-color: transparent;
+    color: #f5f4f4;
+    padding: 8px 24px;
+    border-color: #f5f4f4;
+    border-style: solid;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transform: scale(1.0);
+    transition: transform 0.3s ease;
+}
+
+button:active {
+    transform: scale(0.93);
+}
