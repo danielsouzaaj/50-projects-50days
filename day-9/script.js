@@ -2,7 +2,7 @@ const form = document.querySelector('.form-conteiner')
 const input = document.querySelector('.form-input')
 const lastMessage = document.querySelector('.last-message')
 
-let saveMessage = localStorage.getItem('message') || 'Nenhuma mensagem!'
+let saveMessage = localStorage.getItem('message') || 'No message!'
 lastMessage.textContent = saveMessage
 
 form.addEventListener('click', (event) => {
