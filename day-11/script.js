@@ -15,6 +15,7 @@ function trocaTela() {
 
 form.addEventListener('submit', (event) => {
     event.preventDefault()
+    
     numeroDeTentativas++
 
     let numeroDigitado = parseInt(input.value)
