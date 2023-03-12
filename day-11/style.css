@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #222222;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tela-principal,
+.tela-secundaria {
+    background-color: #333333;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 15px;
+    text-align: center;
+}
+
+.tela-principal__title,
+.tela-secundaria__title {
+    color: #f7f7f7;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+
+.tela-principal__form {
+    display: flex;
+    justify-content: center;
+}
+
+.tela-principal__form input {
+    background-color: #444444;
+    color: #f7f7f7;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.tela-principal__form input:focus {
+    outline: none;
+}
+
+button {
+    color: #f7f7f7;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transform: scale(1.0);
+    transition: transform 0.3s ease;
+}
+
+.tela-principal__form button {
+    background-color: #848484;
+    padding: 0 10px;
+    border-radius: 0 5px 5px 0;
+}
+
+.tela-secundaria__button {
+    background-color: #444444;
+    padding: 10px 28px;
+    border-radius: 5px;
+}
+
+button:active {
+    transform: scale(0.93);
+}
+
+.hidden {
+    display: none;
+}
