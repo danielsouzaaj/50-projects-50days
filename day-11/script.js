@@ -26,6 +26,7 @@ form.addEventListener('submit', (event) => {
     }
 
     input.value = ''
+    input.focus()
 })
 
 jogarNovamenteBtn.addEventListener('click', () => location.reload())
