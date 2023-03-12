@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Jogo da Adivinhação</title>
+</head>
+<body>
+    <div class="tela-principal">
+        <h1 class="tela-principal__title">Tente adivinhar um número entre 0 e 10</h1>
+        <form class="tela-principal__form">
+            <input type="text">
+            <button>Tentar</button>
+        </form>
+    </div>
+
+    <div class="tela-secundaria hidden">
+        <h2 class="tela-secundaria__title">Você acertou em <span class="tentativas"></span> tentativa(s)</h2>
+        <button class="tela-secundaria__button">Jogar Novamente</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
