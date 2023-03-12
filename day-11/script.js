@@ -5,7 +5,7 @@ const telaSecundaria = document.querySelector('.tela-secundaria')
 const tentativas = document.querySelector('.tentativas')
 const jogarNovamenteBtn = document.querySelector('.tela-secundaria__button')
 
-const numeroAleatorio = Math.round(Math.random() * 10)
+let numeroAleatorio = Math.round(Math.random() * 10)
 let numeroDeTentativas = 0
 
 function trocaTela() {
